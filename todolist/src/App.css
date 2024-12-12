@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.form-switch {
+  margin: 20px;
+}
+
+.form-switch button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-switch button.active {
+  background-color: darkgray;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+/* App.css */
+.priority-lists {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.priority-list {
+  flex: 1;
+}
+
+.todo-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
